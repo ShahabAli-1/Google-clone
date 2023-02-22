@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import API_KEY from "./keys";
 import axios from "axios";
 
-const CONTEXT_KEY = "d64f97e455f3c42a9";
+const CONTEXT_KEY = "Your-Context-Key-here";
 
 const useGoogleSearch = (searchTerm) => {
   const [data, setData] = useState(null);
